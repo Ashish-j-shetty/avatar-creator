@@ -1,7 +1,13 @@
-import "./App.css";
+import CharacterEditor from "./components/CharacterEditor";
+import Footer from "./components/Footer";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div>
+      <CharacterEditor />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
