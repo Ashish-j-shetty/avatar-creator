@@ -1,0 +1,20 @@
+.controlPane {
+  padding: 24px;
+  padding-top: 18px;
+  background-color: white;
+  border-radius: 8px;
+
+  margin-bottom: 32px;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: -4px;
+}
+
+.metadata {
+  margin-left: 16px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: hsl(0deg, 0%, 30%);
+}
