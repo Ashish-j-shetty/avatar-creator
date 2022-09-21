@@ -5,13 +5,7 @@ import ButtonRow from "../ButtonRow";
 
 import styles from "./ControlPane.module.css";
 
-const ControlPane = ({
-  title,
-  type,
-  options,
-  currentOption,
-  handleSelectOption,
-}) => {
+const ControlPane = ({ title, options, currentOption, handleSelectOption }) => {
   return (
     <div className={styles.controlPane}>
       <h2 className={styles.title}>

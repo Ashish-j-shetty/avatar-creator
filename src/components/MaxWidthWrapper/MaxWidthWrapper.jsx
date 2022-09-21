@@ -8,7 +8,7 @@ export default function MaxWidthWrapper({
   ...delegated
 }) {
   return (
-    <div className={`${styles.maxWidthWrapper}`} {...delegated}>
+    <div className={`${styles.maxWidthWrapper} ${className}`} {...delegated}>
       {children}
     </div>
   );
